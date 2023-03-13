@@ -10,6 +10,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100vw;
+    min-height: 100vh;
     background-color: #1F1F1F;
     font-family: 'Quicksand', sans-serif;
     color: aliceblue;
@@ -89,8 +90,9 @@ button {
 
 .footer {
     display: flex;
-    align-items: center;
+    flex-grow: 1; 
     justify-content: center;
+    align-items: end;
     font-size: 24px;
     margin-bottom: 16px;
 }
