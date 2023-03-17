@@ -21,7 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 16px;
+    gap: 32px;
 }
 
 
@@ -76,7 +76,7 @@ body {
     font-weight: 600;
 }
 
-button {
+.download {
     font-size: 28px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
@@ -86,6 +86,7 @@ button {
     background-color: #2962FF; 
     text-decoration: none;
     padding: 16px 32px;
+    cursor: pointer;
 }
 
 .footer {
